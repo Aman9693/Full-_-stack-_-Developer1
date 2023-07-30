@@ -1,0 +1,26 @@
+#m4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+}
+#m4 td,#m4{
+    border: 1px solid black;
+     text-align: center;
+     padding: 10px;
+}
+#m4 th{
+    background-color:greenyellow;
+    padding: 5px;
+    text-align: center;
+
+}
+#m4 th:hover{
+    background-color: yellowgreen;
+    padding: 10px;
+}
+#m4 tr:nth-child(even){
+    background-color: azure;
+}
+#m4 tr:hover{
+    background-color: aqua;
+}
